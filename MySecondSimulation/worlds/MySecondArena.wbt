@@ -9,8 +9,8 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/project
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0944
-  position -3.5707008417636395e-07 -3.570710947259021e-07 1.732550085954643
+  orientation -0.3832315913975771 0.31334233544153367 0.8688786613647075 1.9062261336310076
+  position 0.1270162826975269 -0.637358398700051 0.6056304750475405
   follow "e-puck"
   followType "None"
 }
@@ -37,5 +37,11 @@ WoodenBox {
   size 0.1 0.1 0.1
 }
 E-puck {
-  controller "MySecondControllerSln1"
+  hidden position_0_0 3.057555792749196e-08
+  hidden position_0_1 3.057554407691379e-08
+  hidden rotation_1 0 1 0 2.9802322387695313e-08
+  hidden rotation_2 0 1 0 2.9802322387695313e-08
+  translation 0 1.7815474619152864e-11 -6.391454876137487e-05
+  rotation 0.9999999999999999 0 0 1.1907338712172002e-07
+  controller "MySecondInheritanceController"
 }
